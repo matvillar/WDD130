@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+/* Nav-Bar */
+
+header {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  box-shadow: -1px 3px 11px gray;
+  width: 100%;
+  z-index: 300;
+}
+li {
+  list-style: none;
+}
+
+nav ul {
+  display: flex;
+}
+nav li a {
+  color: #164568;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: 130px;
+}
+.logo img {
+  height: 170px;
+  margin-left: 40px;
+}
+.social i {
+  color: #164568;
+  margin-right: 20px;
+}
+.social {
+  margin-right: 20px;
+}
+
+/* Main */
+
+main {
+  background: url('./images/pexels-jonny-lew-1615766.jpg');
+  height: 100vh;
+  text-align: center;
+}
+
+main h1 {
+  color: #ffffff;
+  font-size: 9.3rem;
+  padding-top: 280px;
+  text-transform: uppercase;
+}
+main h3 {
+  color: #fff;
+  padding-top: 20px;
+  font-size: 1.5rem;
+}
+
+/* Button */
+.btn {
+  background-color: #fff;
+  display: inline-block;
+  border-radius: 10px;
+  margin-top: 60px;
+}
+.btn h3 {
+  color: #164568;
+  padding: 20px;
+  font-size: 1.5rem;
+}
+.btn:hover {
+  opacity: 0.9;
+  scale: 1.1;
+  transition: all 1s ease-in-out;
+}
+
+/* Services */
+
+.show-options {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  margin-top: 150px;
+}
+
+.show-options h1 {
+  font-size: 7rem;
+  color: #164568;
+  text-align: center;
+  margin-bottom: 100px;
+  text-transform: uppercase;
+  letter-spacing: 1.5rem;
+}
+
+.show-options img {
+  height: 280px;
+  width: 400px;
+
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.card {
+  width: 400px;
+  height: 550px;
+  background-color: rgb(253, 253, 252);
+  border-radius: 15px;
+  box-shadow: -1px 3px 11px gray;
+}
+.card-explain {
+  color: #164568;
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 15px 30px 0 30px;
+  margin-top: 20px;
+}
+.click-me {
+  background-color: #164568;
+  color: #fff;
+  margin: auto 120px;
+  text-align: center;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+.click-me h3 {
+  padding: 20px;
+}
+
+/* Join US */
+
+.join-us {
+  background-color: #164568;
+  height: 100vh;
+  position: relative;
+}
+.img-join {
+  height: 700px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  border-radius: 15px;
+}
+.join-service {
+  position: absolute;
+  background-color: #ffffff;
+  width: 700px;
+  top: 260px;
+  right: 300px;
+  padding: 30px;
+  border: 5px solid black;
+  border-radius: 15px;
+}
+.join-service h1 {
+  font-size: 5rem;
+  color: #164568;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3.7px;
+  margin-bottom: 30px;
+}
+.join-service p {
+  font-size: 2rem;
+}
+.btn-dark {
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #164568;
+  display: inline-block;
+  width: 150px;
+  margin-top: 30px;
+  border-radius: 10px;
+
+  text-align: center;
+}
+.btn-dark h3 {
+  padding: 20px 0 20px 0;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
